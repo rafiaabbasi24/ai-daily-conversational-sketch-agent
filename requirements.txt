@@ -1,0 +1,35 @@
+# FastAPI – backend framework for RESTful API
+fastapi==0.110.0
+
+# Uvicorn – ASGI server to run FastAPI
+uvicorn[standard]==0.27.0
+
+# Streamlit – interactive web UI for the sketch artist
+streamlit==1.33.0
+
+# PyTorch – core deep‑learning library (CPU build; replace with +cuXX for GPU)
+torch==2.2.0
+
+# Diffusers – diffusion model pipelines (Stable Diffusion, etc.)
+diffusers==0.26.0
+
+# Transformers – language model utilities (e.g., CLIP, GPT)
+transformers==4.40.0
+
+# Accelerate – optional helper for distributed inference
+accelerate==0.27.0
+
+# Pillow – image processing library used by diffusers and Streamlit
+pillow==10.2.0
+
+# Python‑multipart – required by FastAPI for handling form data
+python-multipart==0.0.9
+
+# NumPy – numerical operations, often required by Torch/Transformers
+numpy==1.26.4
+
+# Optional: tqdm for progress bars in long‑running inference
+tqdm==4.66.2
+
+# Optional: python-dotenv for loading environment variables (API keys, etc.)
+python-dotenv==1.0.1
